@@ -58,4 +58,33 @@ git commit -m "nuevos archivos 2"
  create mode 100644 hellogit2.py
 
 
+## Guaradado
+git checkout -- <archivo> file returns to its original state
+git reset <archivo> file is removed from commit but your edits are retained
+git reset --hash move the project to the past at a certain point
+git restore (restore everything from the last commit)
+
+### logs
+
+git log --graph
+git log --graph --pretty=oneline (just oneline)
+optimize logs
+git log --graph --decorate --all --oneline
+
+### Alias
+
+include alias
+git config --global alias.tlog "log --graph --decorate --all --oneline"
+
+just call git tlog
+
+### gitignore
+en el .gitignore colocar **/file para ignorar archivos si es hidden colocar .file
+- posterior generar git status para identificar sino lo esta leyendo actualmente
+
+
+### git diff
+change identification of files where i can see all the changes that i madre
+
+
 
