@@ -43,4 +43,19 @@ git status
 On branch main
 nothing to commit, working tree clean
 
+## logs de git
+
+git log
+commit e2b544a6925c9c24e401c81225ad8d5794b7fbf8 (HEAD -> main)
+Author: DanielBrenes <dbrenes424@gmail.com>
+Date:   Mon May 4 10:39:59 2026 -0600
+
+
+## inclusion del segundo fichero 
+git commit -m "nuevos archivos 2"
+[main eb1e631] nuevos archivos 2
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hellogit2.py
+
+
 
