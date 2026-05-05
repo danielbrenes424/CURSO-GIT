@@ -86,5 +86,17 @@ en el .gitignore colocar **/file para ignorar archivos si es hidden colocar .fil
 ### git diff
 change identification of files where i can see all the changes that i madre
 
+### desplazamiento
+HEAD pointer allow to go back in time on commits but you are not in any branch
+
+Estado Detached: El HEAD apunta directamente a un commit (HEAD -> e2b544a). Si haces cambios aquí y haces un commit, esos cambios "flotarán" en el vacío y podrías perderlos al moverte
+
+Always Safe mode
+git checkout <hash del commit>
+git checkout <main> for going back to the main branch that we are working on
+
+if you like to work on there must create a branch
+git checkout -b fix-version-antigua
+
 
 
