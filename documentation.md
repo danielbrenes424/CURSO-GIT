@@ -139,5 +139,9 @@ I m currently working on login
 
 git merge main desde git login
 
+for conflicts when merge
+update the file like git says an then 
+git add FILE and git commit -m "correcion" this solve the conflict
+
 
 
