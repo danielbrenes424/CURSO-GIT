@@ -131,5 +131,13 @@ volvemos git checkout tags/clase_1
 
 
 ### git branch y switch
+git branch login
+git log
+git switch login 
+
+I m currently working on login
+
+git merge main desde git login
+
 
 
