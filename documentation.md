@@ -144,4 +144,39 @@ update the file like git says an then
 git add FILE and git commit -m "correcion" this solve the conflict
 
 
+# git stash 
+
+before going to other branch we need to implement git stash to save the work and also we can make in any branch git stash list to see the save changes when we want to continue the work we include git stash pop
+
+```bash
+- git stash
+- git stash list
+- git stash pop
+- git stash drop
+```
+
+
+### Reintegracion list
+
+first to include the feature on main 
+git diff login to see which are the changes then after check 
+we can switch to the main with 
+git switch main 
+and the merge the changes
+git merge login
+And the project is complet
+
+```bash
+- git switch main
+- git diff login (on main)
+- git merge login (on main)
+```
+
+### Drop branches
+```bash
+git branch -d login
+```
+
+
+
 
