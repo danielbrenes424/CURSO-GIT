@@ -27,5 +27,11 @@ copy repository to mine.
 5. Usuario externo recibe pull request y hace merge 
 6. Codigo externo se actualiza
 
+### Sincronizacion Fork
 
+Activate sinc because the person who commits the fork can be delayed and outdated.
+
+is possible to clone a README and we have markdown on github
+
+### 
 
