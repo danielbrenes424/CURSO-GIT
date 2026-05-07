@@ -33,5 +33,21 @@ Activate sinc because the person who commits the fork can be delayed and outdate
 
 is possible to clone a README and we have markdown on github
 
-### 
+### Git flow
+
+main
+
+git 
+git cherry pick find a commit and include the commit on main 
+
+
+
+### git workflow
+
+brew install git-flow
+
+### hotfix branches (more)
+
+
+
 
