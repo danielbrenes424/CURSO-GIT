@@ -49,5 +49,45 @@ brew install git-flow
 ### hotfix branches (more)
 
 
+Para trabajar con diferentes cuentas necesito revisar lo siguiente
+para el trabajo
+
+proyectos personales:
+
+git clone git@github.com:usuario/proyecto-personal.git
+
+proyectos de trabajo:
+
+git clone git@github-trabajo:grupo-zen/automations-zen.git
+
+
+En el del trabajo configurar
+git config user.name "Daniel Brenes"
+git config user.email "danielb@performance-squad.com"
+
+
+Personal
+git config user.name "Daniel Brenes"
+git config user.email "dbrenes424@gmail.com"
+
+
+Comandos verificacion
+git remote -v
+
+Correo se firmara el commit
+git config user.email
+
+Que llaves en memoria tengo
+ssh-add -l
+
+
+
+
+
+
+
+
+
+
 
 
